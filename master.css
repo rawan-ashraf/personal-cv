@@ -1,0 +1,189 @@
+:root {
+    --primary-color: #3500f4; 
+    --secondary-color: #f3f2f3;
+    --accent-color: #ffffff; 
+    --text-color: #2d2d30;
+    --border-color: #e5e7eb;
+}
+.A{
+    background-image:url(../../../Desktop/f1d0536f2a59b4487bebd50e7e42402d.jpg);
+   margin: 0px;
+    background-size: cover;
+    text-align: center;
+    padding: 30px 10px 80px 30px;
+
+}
+span{
+    --text-color: black
+}
+.B{
+    padding: 50px;
+    text-align: center;
+    
+}
+.c ul{
+    background-color: #2d2d30;
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    overflow: hidden;
+}
+.c a{
+    color: white;
+    display: block;
+    padding:15px;
+    background-attachment: fixed;
+}
+.c li{
+display: inline-block;
+padding: 0px 20px
+}
+header {
+    display: flex;
+    align-items: center;
+    padding: 0px;
+    background-color: #2d2d30;
+    background-attachment: fixed; 
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    width: 100%; 
+    z-index: 1000; 
+}
+button{
+    padding: 9px;
+    background-color: #e8e7ec;
+    border-radius: 50px;
+   
+}
+.o {
+    border: 2px solid rgb(4, 4, 4); /* Adds a 2px black border */
+    border-radius: 50px;
+    padding: 60px;
+    padding-bottom: 90px;
+    padding-top: 40px;
+    background-position: 20% 0%;
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    font-family:SemiBold 600;
+    font-size: large;
+    color: rgb(123, 123, 116);
+
+}
+.p{
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+}
+#o{
+    color: rgb(123, 123, 116);
+}
+
+.z {
+    border: 2px solid rgb(4, 4, 4); 
+    border-radius: 50px;
+    padding: 60px;
+    padding-bottom: 90px;
+    padding-top: 40px;
+    background-position: 50%;
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    font-family: SemiBold 600;
+    font-size: large;
+    color: rgb(123, 123, 116);
+    margin-top: 70px;
+    margin-left: 500px;
+}
+.k {
+    border: 2px solid rgb(4, 4, 4); /* Adds a 2px black border */
+    border-radius: 50px;
+    padding: 60px;
+    padding-bottom: 90px;
+    padding-top: 40px;
+    background-position: 50%;
+    width: 25%;
+    height: 70px;
+    text-align: center;
+    font-family: SemiBold 600;
+    font-size: large;
+    color: rgb(123, 123, 116);
+    margin: 70px;
+    margin-left: 1000px; /* Pushes the element to the right */
+}
+#p
+{
+    margin: -60px;
+    color:pink;
+    font-family: SemiBold 600;
+    text-size-adjust:100% ;
+    font-size: 30px;
+    margin-bottom:2px ;
+}
+#z{
+    margin: -60px;
+    color:pink;
+    font-family: SemiBold 600;
+    text-size-adjust:100% ;
+    font-size: 30px;
+    margin-bottom:2px ; 
+}
+#k{
+    margin: -60px;
+    color:pink;
+    font-family: SemiBold 600;
+    text-size-adjust:100% ;
+    font-size: 30px;
+    margin-bottom:2px ; 
+}
+.s{
+    border-radius: 6px;
+    padding :40px;
+    border: 2px solid rgb(4, 4, 4); /* Adds a 2px black border */
+    width: 55%;
+    height: 100px;
+    margin:60px ;
+    background-position: center;
+    margin-left: 280px;
+}
+/*.l{
+    color:pink;
+}*/
+.projects {
+    display: flex; /* Enables flexbox layout */
+    gap: 20px; /* Adds space between the sections */
+    justify-content: space-between; /* Distributes the sections with space between */
+    flex-wrap: wrap; /* Ensures content wraps on smaller screens */
+}
+
+.projects h1 {
+    width: 100%; /* Makes the h1 take full width */
+    text-align: center;
+}
+
+.projects > span {
+    width: 48%; /* Ensures each section takes up almost half the space */
+}
+
+#online, #Real_time {
+    background-color: #f4f4f4; /* Optional: Add background color */
+    padding: 20px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Adds shadow effect */
+    min-height: 200px; /* Minimum height of the project box (reduced to 200px) */
+    height: auto; /* Allows the height to adjust based on content */
+}
+
+h2 {
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+h4 {
+    font-size: 1rem; /* Font size for the description */
+    color: #333; /* Text color */
+}
+
+.footer{
+    text-align: center;
+}
